@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fútbol Mexicano</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Fútbol Mexicano</h1>
+    <nav>
+        <button onclick="mostrarSeccion('inicio')">Inicio</button>
+        <button onclick="mostrarSeccion('equipos')">Equipos</button>
+        <button onclick="mostrarSeccion('historia')">Historia</button>
+    </nav>
+</header>
+
+<main>
+
+    <section id="inicio" class="seccion activa">
+        <h2>Bienvenido</h2>
+        <p>El fútbol mexicano es uno de los deportes más populares en México.</p>
+        <img src="img/liga.jpg" alt="Liga MX">
+    </section>
+
+    <section id="equipos" class="seccion">
+        <h2>Equipos Populares</h2>
+        <ul>
+            <li>América</li>
+            <li>Chivas</li>
+            <li>Cruz Azul</li>
+            <li>Pumas</li>
+        </ul>
+    </section>
+
+    <section id="historia" class="seccion">
+        <h2>Historia</h2>
+        <p>La Liga MX es la principal liga de fútbol profesional en México.</p>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Proyecto Escolar - Fútbol Mexicano</p>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
